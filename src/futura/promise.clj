@@ -216,7 +216,7 @@
   - factory function
 
   In case of the initial value is instance of `Throwable`, rejected
-  promise will be retrned. In case of a plain value (not throwable),
+  promise will be returned. In case of a plain value (not throwable),
   a resolved promise will be returned. And finally, if a function
   or any callable is provided, that function will be executed with
   one argument as callback for mark the promise resolved or rejected.
